@@ -96,6 +96,9 @@ b = input("Second value: ")
 print("Before swapping: a =", a, " , b=", b)
 
 print("After swapping: a =", a, " , b=", b)
+
+b, a = a, b
+
 temp = b
 b = a
 a = temp
