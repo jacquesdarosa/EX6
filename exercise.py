@@ -95,7 +95,10 @@ b = input("Second value: ")
 
 print("Before swapping: a =", a, " , b=", b)
 
-print("After swapping: a =", b, " , b=", a)
+print("After swapping: a =", a, " , b=", b)
+tmp = b
+b = a
+a = tmp
 
 # task 8
 
