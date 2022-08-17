@@ -6,37 +6,41 @@
 # task 1
 
 
-'''three_mul = 'fizz'
+'''!three_mul = 'fizz'
 five_mul = 'buzz'
 num1 = 3
-num2 = 4 
+num2 = 5
 max_num = 100
 
 for i in range(1, max_num):
     # % or modulo division gives you the remainder 
- 
-    if i%num1 == 0:
-        print(i, three_mul)
+    if i%num1 == 0 and i%num2 == 0:
+       print(i, three_mul+five_mul)
+
     elif i%num2 == 0:
         print(i, five_mul)
-    elif i%num1 == 0 and i%num2 == 0:
-       print(i, three_mul+five_mul)'''
+    elif i%num1 == 0:'
+        print(i, three_mul)'''
 
 
-# task 2
-# sum: 1 to 5
-
-'''number = 1
+'''# task 2 
+# sum: 1 to 5 # I changed the variable name from Sum to Total
+n = 5
+number = 1
 total = 0
-while number <= 5 :
+while number < n + 1 :
     total += number
     number += + 1
-print(total)'''
+print('Total =', total)'''
+
 
 # task 3
+'''n = 5
+sum = 0
 
-'''for x in range(3): 
-    print(x)'''
+for num in range(n): 
+    sum += num
+print("Sum=", sum)'''
 
 # task 4
 
@@ -108,7 +112,7 @@ else:
 
 print("Your entered value is now ", x)'''
 
-# 10
+'''# 10
 x = int(input("First number:"))
 y = int(input("Second number:"))
 
@@ -117,4 +121,4 @@ if x % y == 0:
 elif y % x == 0:
     print("Second number is divisible by first number, result =", y / x)
 else:
-    print("Numbers are non-divisible!")
+    print("Numbers are non-divisible!")'''
