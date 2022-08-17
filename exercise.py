@@ -116,16 +116,18 @@ print("The minimum value is ", min(x, y, z))
 # task 9
 
 
-x = input("Type your value:")
+x = input("Type your value:") # 1st bug string not recognized 
 
-if x == "0":
-    x = False
-elif x == "1":
+if x == "0": # 2nd bug here, not integer; equality
+    x = False # 3nd bug false 
+elif x == "1": # 4th bug, not integer, equality 
     x = True
 else:
-  pass
+  pass # indentation issue 
 
-print("Your entered value is now ", x)
+print("Your entered value is now ", x) 
+
+
 
 # 10
 x = int(input("First number:"))
