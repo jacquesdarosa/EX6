@@ -335,7 +335,12 @@ The problem:
 Program with bugs:  
 ```python
 
-```
+```x == input("First number: ")
+y == input("Second number: ")
+z == input("Third number: ")
+
+print("The maximum value is ", (x, y ,z))
+print("The minimum value is ", abs(x, y ,z))
 
 >Find the bug and fix it :smiley:
 - Your result could look like this:
@@ -363,7 +368,7 @@ Program with bugs:
 ```python
 x = input("Type your value: )
 
-if x = 0:
+if x = 0: # 
     x = false
 elif x = 1:
     x = true
