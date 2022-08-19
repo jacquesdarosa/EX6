@@ -18,3 +18,4 @@ elif choice == "3":
    print("u go right and theres a wall")
 else:
    print("u just die for inaction")
+
