@@ -5,17 +5,17 @@
 
 # For example:
 
-print("You're in a dark alley. Where do you go?")
-print("(1) left (2) straight (3) right")
+print("You're in a boat all alone in the middle of the ocean with only 500 ml of drinking water left. What do you do?")
+print("(1) drink all the water (2) drink some (3) none")
 choice = input("choose: ")
 
 if choice == "1":
-   print("u go left and die")
+   print("you're going to die soon")
 elif choice == "2":
-   print("u go straight and there is another crossing")
+   print("you will live a bit longer")
    #continue tree here
 elif choice == "3": 
-   print("u go right and theres a wall")
+   print("only God knows")
 else:
    print("u just die for inaction")
 
