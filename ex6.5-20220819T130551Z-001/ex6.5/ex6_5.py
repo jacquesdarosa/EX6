@@ -4,9 +4,10 @@
 #the user made change the course of the story.
 
 # For example:
+# this is my story 
 
 print("You're in a boat all alone in the middle of the ocean with only 500 ml of drinking water left. What do you do?")
-print("(1) drink all the water (2) drink some (3) none")
+print("(1) drink all the water (2) drink some (3) you do nothing")
 choice = input("choose: ")
 
 if choice == "1":
@@ -17,5 +18,5 @@ elif choice == "2":
 elif choice == "3": 
    print("only God knows what will happen to you")
 else:
-   print("u just die for inaction")
+   print("u just die from inaction")
 
