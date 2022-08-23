@@ -39,7 +39,7 @@ elif choice == "2":
       elif 150 < ml <=250: 
        print(' you might live perhaps more than 15 hours')
       elif 250 < ml <= 300: 
-       print('This is not good, man, this is going too fast', "you've got 10 hours maybe?")
+       print('This is not good, man, this is going too fast', "you've got 10 hours maybe less?")
       elif 300 < ml: 
        print('Really, do you want to die here?:')
    
