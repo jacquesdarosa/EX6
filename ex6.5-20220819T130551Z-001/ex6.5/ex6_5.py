@@ -15,7 +15,7 @@ elif choice == "2":
    print("you will live a bit longer")
    #continue tree here
 elif choice == "3": 
-   print("only God knows")
+   print("only God knows what will happen to you")
 else:
    print("u just die for inaction")
 
