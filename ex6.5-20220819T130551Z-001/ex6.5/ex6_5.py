@@ -11,12 +11,18 @@ print("(1) you drink all the water (2) you drink some (3) you do nothing")
 choice = input("choose: ")
 
 if choice == "1":
-   print("you're going to die soon")
+   print("your chances of surviving this are not high")
+   choice = input('Would you like to think again? Please type yes/no:')
+   if choice == "yes" :
+    print('you can live a bit longer if you do not drink all the water in one go')
+   elif choice == "no":
+    print('You will probably die soon, so Carpe Diem')
+
 elif choice == "2":
-   print("you will live a bit longer")
+   print("good choice, but you should drink very little, try to save some water if you wanna survive")
    #continue tree here
 elif choice == "3": 
    print("only God knows what will happen to you")
 else:
-   print("you're rescued by the Coast Guard")
+   print("you're rescued by the Coast Guard, life is good")
 
