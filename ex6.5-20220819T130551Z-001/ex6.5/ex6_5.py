@@ -31,7 +31,7 @@ elif choice == "2":
     print("Good choice, but you should drink very little, try to save some water if you wanna survive")
 
 
-    mL = (int(input('How much do you want to drink? please enter mL ')))
+    mL = int(input('How much do you want to drink? please enter mL '))
     if 0 <= mL <=50: 
        print('You might live, roughly up to 24 hours or more')
 
@@ -48,7 +48,7 @@ elif choice == "2":
        print('Really, do you wanna die here?:')
        
    
-if choice == "3" :
+elif choice == "3" :
    print("Only God knows what will happen to you")
 
 else: print("You're rescued by the Coast Guard: Life is good!")
