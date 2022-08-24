@@ -8,7 +8,7 @@
 
 
 
-print("You're in a boat all alone in the middle of the ocean with only 500 ml of drinking water left. What do you do?")
+print("You're in a boat all alone in the middle of the ocean with only 500 mL of drinking water left. What do you do?")
 print("(1) you drink all the water (2) you drink some (3) you do nothing")
 choice = input("choose: ")
 
@@ -31,25 +31,25 @@ elif choice == "2":
     print("Good choice, but you should drink very little, try to save some water if you wanna survive")
 
 
-    ml = (int(input('How much do you want to drink? please enter ml ')))
-    if 0 < ml <=50: 
-       print('You might live, roughly up to 24 hours')
+    mL = (int(input('How much do you want to drink? please enter mL ')))
+    if 0 <= mL <=50: 
+       print('You might live, roughly up to 24 hours or more')
 
-    elif  50 < ml <= 150:
+    elif  50 < mL <= 150:
        print('Be careful, you will probably run out of water in less than 24 hours')
        
-    elif 150 < ml <= 250:
+    elif 150 < mL <= 250:
        print('You might live perhaps more than 15 hours')
 
-    elif 250 < ml <= 300:  
-       print('This is not good, man, this is going too fast', "you've got 10 hours left maybe less?")
+    elif 250 < mL <= 300:  
+       print('This is not good, man, it is going down too fast', "you've got 10 hours left maybe less?")
 
-    elif ml > 300: 
+    elif mL > 300: 
        print('Really, do you wanna die here?:')
        
    
 if choice == "3" :
    print("Only God knows what will happen to you")
 
-else: print("You're rescued by the Coast Guard, life is good")
+else: print("You're rescued by the Coast Guard: Life is good!")
    
