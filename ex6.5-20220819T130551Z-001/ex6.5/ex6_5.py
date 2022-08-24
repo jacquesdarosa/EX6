@@ -28,7 +28,7 @@ if choice == "1":
 
 
 elif choice == "2":
-    print("good choice, but you should drink very little, try to save some water if you wanna survive")
+    print("Good choice, but you should drink very little, try to save some water if you wanna survive")
 
 
     ml = (int(input('How much do you want to drink? please enter ml ')))
